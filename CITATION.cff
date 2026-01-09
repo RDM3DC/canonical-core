@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Canonical Core: ARP/AIN, Adaptive-π, Curve Memory, Phase-Lift, and QPS Mapping"
+version: 0.1.0
+date-released: 2026-01-09
+url: "https://github.com/RDM3DC/canonical-core"
+repository-code: "https://github.com/RDM3DC/canonical-core"
+type: software
+authors:
+  - name: "RDM3DC"
+    website: "https://github.com/RDM3DC"
+keywords:
+  - adaptive systems
+  - adaptive resistance
+  - adaptive pi
+  - curve memory
+  - phase lift
+  - quantum phase space
+  - general relativity
+  - geometric computation
+  - phase-structured branching
+license: CC-BY-4.0
+abstract: |
+  A unified theoretical framework consisting of five foundational papers: 
+  (1) Adaptive Resistance and Impedance Networks (ARP/AIN),
+  (2) Adaptive-π Geometry and Calculus,
+  (3) Curve Memory and Curve Memory Alphabet (CM/CMA),
+  (4) Phase-Lift, PR-Root, and Phase-Resistant Objects (PROs),
+  (5) QPS-GR Strain, Clock Offset, Visibility, and Refresh Mapping. 
+  
+  This work establishes canonical notation and semantics for adaptive
+  geometric systems with memory, phase-structured branching, and quantum-GR
+  correspondence layers.
