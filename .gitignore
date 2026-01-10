@@ -1,0 +1,27 @@
+# Video files (large binary files)
+videos/
+
+# Manim cache and temporary files
+media/
+__pycache__/
+*.pyc
+
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+tmp/
