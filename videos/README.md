@@ -1,10 +1,14 @@
 # Videos Folder
 
-This folder contains video animations created with Manim (Mathematical Animation Engine) that visualize concepts from the Canonical Core framework.
+This folder is intended for video animations created with Manim (Mathematical Animation Engine) that visualize concepts from the Canonical Core framework.
 
-## Contents
+## Status
 
-The videos are organized into the following directories:
+**Note:** The video files are not currently included in this repository. The videos were created previously but are excluded from version control due to their large file size (approximately 566 video files). To obtain the videos, please contact the repository maintainer or check for external hosting links in future releases.
+
+## Planned Contents
+
+The videos would be organized into the following directories:
 
 ### Adaptive-π Related
 - **adaptive_pi_manim_dual/** - Dual view animations of adaptive π concepts
@@ -42,8 +46,8 @@ Each directory typically contains:
 
 ## Total Files
 
-This folder contains approximately 566 video files across all animations.
+The complete collection would contain approximately 566 video files across all animations.
 
 ## Note
 
-These video files are excluded from version control via `.gitignore` to keep the repository size manageable.
+These video files are excluded from version control via `.gitignore` to keep the repository size manageable. If you need access to the video files, please open an issue or contact the repository maintainer to discuss hosting options (e.g., external cloud storage, GitHub releases, or generation from source scripts).
