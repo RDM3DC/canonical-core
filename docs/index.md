@@ -66,6 +66,16 @@ See [notation.md](notation.md) for the full list, but key symbols:
 - Worked examples with real datasets (coming in v0.2)
 - Visualization tools (planned for `/code`)
 
+## Related Repositories
+
+This repository contains the **theoretical framework** and canonical papers. For **code implementations, graphs, and experiments**, see:
+
+- **[RDM3DC organization on GitHub](https://github.com/RDM3DC)** – Contains multiple repositories with:
+  - **[ARP](https://github.com/RDM3DC/arp)** – Code implementations for Adaptive Resistance/Impedance Networks
+  - Additional repositories with visualizations, graphs, and experimental results
+
+Visit [github.com/RDM3DC](https://github.com/RDM3DC) to explore all related projects.
+
 ---
 
 **Next:** Read the [glossary](glossary.md) for detailed definitions.

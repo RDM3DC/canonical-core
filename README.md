@@ -102,6 +102,17 @@ canonical-core/
 
 ---
 
+## 🔗 Related Repositories
+
+This is the **canonical reference** repository for the theoretical papers. For **code implementations, graphs, and experiments**, see the [RDM3DC organization](https://github.com/RDM3DC) on GitHub, which includes:
+
+- **[ARP](https://github.com/RDM3DC/arp)** – Code implementations for Adaptive Resistance/Impedance Networks
+- **Additional repositories** with code, visualizations, graphs, and experimental results
+
+Visit [github.com/RDM3DC](https://github.com/RDM3DC) to explore all related projects.
+
+---
+
 ## 🛠️ Status
 
 - **Version:** 0.1.0
