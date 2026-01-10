@@ -8,7 +8,7 @@ This repository contains the foundational white papers for:
 - **Curve Memory (CM/CMA)** – Path and derivative memory structures
 - **Phase-Lift (⧉, PROs)** – Phase-structured branching and PR-Root semantics
 - **QPS Mapping** – Quantum-GR refresh mapping and strain-clock visibility
-
+https://rdm3dc.github.io/canonical-core/
 ---
 
 ## 📚 Papers (Recommended Reading Order)
