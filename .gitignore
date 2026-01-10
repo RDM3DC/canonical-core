@@ -1,6 +1,7 @@
 # Video files (large binary files)
-# Ignore all files in videos folder except README.md
-videos/*
+# Ignore all files and subdirectories in videos folder except README.md
+# This allows tracking documentation while excluding large video content
+videos/**
 !videos/README.md
 
 # Manim cache and temporary files

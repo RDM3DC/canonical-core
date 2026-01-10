@@ -15,10 +15,10 @@ The videos are organized into the following directories:
 - **prroot_holonomy_surfaces_manim/** - PR-Root holonomy surfaces
 
 ### Phase Spine
-- **phase_spine/** - Phase spine animations (multiple versions)
-- **phase_spine (2)/** - Phase spine variant
-- **phase_spine (2) - Copy/** - Phase spine variant
-- **phase_spine - Copy/** - Phase spine variant
+- **phase_spine/** - Primary phase spine animations at 1080p60
+- **phase_spine (2)/** - Alternative phase spine rendering
+- **phase_spine (2) - Copy/** - Phase spine backup/variant
+- **phase_spine - Copy/** - Phase spine alternative at 1080p60
 
 ### Quantum and Geometric Concepts
 - **fibonacci_chsh_manim/** - Fibonacci CHSH inequality
@@ -32,11 +32,13 @@ The videos are organized into the following directories:
 
 ## Video Format
 
-Most videos are rendered at 480p15 (480p resolution at 15fps) or 1080p60 (1080p resolution at 60fps).
+Videos are rendered in different formats depending on their complexity and purpose:
+- **480p15**: 480p resolution at 15fps (most Manim animations)
+- **1080p60**: 1080p resolution at 60fps (phase_spine and z2_manim_dashboard)
 
 Each directory typically contains:
 - Main animation files (`.mp4`)
-- `partial_movie_files/` subdirectory with intermediate render files
+- `partial_movie_files/` subdirectory with intermediate render files from Manim's compilation process
 
 ## Total Files
 
