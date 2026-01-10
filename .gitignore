@@ -1,5 +1,7 @@
 # Video files (large binary files)
-videos/
+# Ignore all files in videos folder except README.md
+videos/*
+!videos/README.md
 
 # Manim cache and temporary files
 media/
