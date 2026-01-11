@@ -485,15 +485,40 @@ If $\Omega$ is learned, Adaptive‑π becomes a way to learn a conformal metric.
 
 ## 10. Testable predictions and falsifiers
 
-### 10.1 Predictions
+### 10.1 Predictions (Geometric applications)
 
 1. If $\Omega$ is increased in regions of high curvature, then adaptive length $L_g$ increases for paths that traverse high-curvature zones, pushing optimizers toward smoother trajectories.
 2. In 2D PDEs, $\Omega^{-2}$ scaling predicts that regions with larger $\Omega$ diffuse more slowly under $\partial_t u = \Delta_g u$.
 
-### 10.2 Falsifiers (what would contradict the model)
+### 10.2 Predictions (Phase-theoretic applications — novel to πₐ)
+
+These predictions distinguish πₐ from standard phase formulations:
+
+1. **Continuous phase transport under geometric deformation:**  
+   If $\pi_a(x,t)$ varies smoothly along a path, then phase unwrapping using $\theta = \theta_R + 2\pi_a(x,t) \cdot w$ should produce continuous $\theta_R$ even when the path deforms, provided the topology (winding number $w$) doesn't change.
+
+2. **Stable winding counts:**  
+   Under smooth deformations of $\pi_a$ that preserve topology, the winding number $w$ computed using the local wrap unit $2\pi_a$ should remain integer-valued and constant, whereas standard fixed-$2\pi$ counting might exhibit spurious jumps.
+
+3. **ℤ₂ parity tracking:**  
+   The parity $(w \bmod 2)$ should be robust to local fluctuations in $\pi_a$ and should flip predictably only when the path encircles a phase singularity an odd number of times.
+
+4. **Topology changes without winding changes:**  
+   It should be possible to construct scenarios where geometric topology changes (e.g., Z₂ pumps) occur with $\Delta w = 0$ by appropriate tuning of $\pi_a(x,t)$, demonstrating that winding is not the only topological invariant.
+
+5. **Branch-cut-free visualizations:**  
+   When visualizing phase on surfaces or complex planes using $\pi_a$-adapted colormaps, discontinuities at traditional branch cuts should be eliminated or significantly reduced compared to standard $\arg(z) \in (-\pi, \pi]$ plots.
+
+6. **Phase-Lift continuity:**  
+   Implementing Phase-Lift (⧉) with adaptive $\pi_a$ instead of fixed $2\pi$ should reduce or eliminate branch discontinuities in time-series data of complex-valued signals, particularly near phase singularities.
+
+### 10.3 Falsifiers (what would contradict the model)
 
 1. If a chosen stimulus $s(x,t)$ is claimed to drive $\pi_a$, but measured outcomes show no correlation between $s$ and inferred $\Omega$, then the proposed coupling law is wrong.
 2. If an implementation claims conformal behavior but observed angles change under the induced measurements, then the metric is not conformal (or computations are inconsistent).
+3. **Phase continuity failure:** If $\pi_a$ is claimed to enable continuous phase transport, but numerical experiments show phase jumps even with smooth $\pi_a(x,t)$ variation and no topology changes, the formulation is incorrect.
+4. **Winding instability:** If winding numbers computed using adaptive $2\pi_a$ wrapping are less stable (more sensitive to noise or deformation) than standard $2\pi$ wrapping in controlled experiments, the claimed advantage of πₐ is not supported.
+5. **Incompatibility with standard limits:** If setting $\pi_a \to \pi$ (constant) does not recover standard quantum mechanical phase behavior, the framework is inconsistent.
 
 ---
 
