@@ -37,14 +37,21 @@ This document establishes the **official notation** for Canonical Core. If you r
 ✅ Correct: `⧉(state, context)`  
 ❌ Wrong: `state⧉` or `⧉state`
 
-### 2. π remains constant
+### 2. π remains constant, πₐ is a field
 - Use **π** for the mathematical constant (3.14159...)
 - Use **πₐ** when π is adaptive (context-dependent field)
 - Never mix them in the same expression
+- **πₐ defines the local phase wrap unit** (not just a rescaling)
 
-✅ Correct: `A = π r²` (circle area)  
+✅ Correct: `A = π r²` (circle area in Euclidean geometry)  
 ✅ Correct: `A = πₐ(context) · r²` (adaptive geometry)  
-❌ Wrong: `A = π · πₐ · r²`
+✅ Correct: `θ = θ_R + 2πₐ(x,t) · w` (phase with adaptive wrap)  
+❌ Wrong: `A = π · πₐ · r²`  
+❌ Wrong: `θ = θ_R + 2π · πₐ · w` (mixing fixed and adaptive)
+
+**Key distinction:** In standard QM, phase wraps at fixed 2π. With πₐ, the wrap unit itself becomes a dynamic field:
+- Standard: `θ ≡ θ + 2πk` (fixed period)
+- Adaptive: `θ = θ_R + 2πₐ(x,t) · w` (dynamic period)
 
 ### 3. CM is a memory object
 - **CM** is not a function; it's a data structure
@@ -103,6 +110,50 @@ Then use:
 ```latex
 \PhaseLift(state, context) generates a phase-structured branch with memory \CM.
 ```
+
+---
+
+## Special Topic: πₐ in Phase Equations
+
+The adaptive-π field has specific notation conventions when used in phase equations:
+
+### Standard vs Adaptive Phase Wrap
+
+**Standard QM (fixed wrap):**
+```
+θ ≡ θ + 2πk,  k ∈ ℤ
+```
+Phase wraps at fixed 2π intervals.
+
+**Adaptive-π (dynamic wrap):**
+```
+θ = θ_R + 2πₐ(x,t) · w,  w ∈ ℤ
+```
+Where:
+- `θ_R` = resolved (unwrapped) phase
+- `πₐ(x,t)` = local phase-period field
+- `w` = winding number
+
+### Key Properties
+
+1. **πₐ is a field, not a constant** — It varies with position and time
+2. **πₐ defines the local wrap unit** — Not just a rescaling factor
+3. **πₐ enables continuous phase transport** — Phase doesn't "jump" at branch cuts
+4. **πₐ → π recovers standard QM** — Standard physics is a special case
+
+### When to Use πₐ
+
+Use **πₐ** when:
+- Tracking phase continuity along paths
+- Computing winding numbers under deformation
+- Implementing Phase-Lift (⧉) operations
+- Working with parity tracking (ℤ₂)
+- Dealing with topology changes that don't change winding
+
+Use **π** when:
+- Working in standard Euclidean geometry
+- Using fixed reference frames
+- Computing with constant phase periods
 
 ---
 
