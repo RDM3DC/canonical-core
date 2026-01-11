@@ -18,7 +18,7 @@ https://rdm3dc.github.io/canonical-core/
    *The core adaptation engine: how systems respond to strain and memory.*
 
 2. **[Adaptive-π Geometry and Adaptive-π Calculus](papers/02-adaptive-pi-geometry.md)**  
-   *πₐ as a field that bends with context; geometric implications.*
+   *πₐ as a genuinely new adaptive phase-period field that defines the local unit of phase wrap; geometric implications and phase-theoretic applications.*
 
 3. **[Curve Memory and Curve Memory Alphabet](papers/03-curve-memory-cma.md)**  
    *How paths and derivatives encode memory; the CMA encoding system.*
@@ -44,9 +44,9 @@ https://rdm3dc.github.io/canonical-core/
 ## 🔑 Key Concepts
 
 | Symbol | Meaning |
-|--------|---------||
+|--------|---------|
 | **⧉** | Phase-Lift operator (prefix, phase-structured branch) |
-| **πₐ** | Adaptive π (field, not constant) |
+| **πₐ** | Adaptive-π field (adaptive phase-period field, genuinely new concept) |
 | **CM** | Curve Memory (path + derivative memory object) |
 | **CMA** | Curve Memory Alphabet (encoding system) |
 | **PROs** | Phase-Resistant Objects (survive phase transitions) |
