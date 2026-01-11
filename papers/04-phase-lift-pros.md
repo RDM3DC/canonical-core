@@ -97,6 +97,28 @@ For time series or path-parameterized inputs $z(t)$, we often want continuity:
 
 This produces a **history-resolved phase** $\theta_R(t)$ which is continuous except when the path crosses through $z=0$ (where phase is undefined).
 
+### 3.4 Connection to adaptive-π field (πₐ)
+
+The unwrapping rule above assumes a **fixed** $2\pi$ identification of phase. This is standard in most contexts, but can be generalized:
+
+In **Paper 02 (Adaptive-π Geometry)**, we introduce a phase-period field $\pi_a(x,t)$ that allows the "size" of one full phase turn to vary with position and time. The phase relation becomes:
+
+$$\theta = \theta_R + 2\pi_a(x,t) \cdot w, \quad w \in \mathbb{Z}$$
+
+where $w$ is the winding number.
+
+**Key distinction:**
+- **Standard Phase-Lift (this paper):** Uses fixed $2\pi$ wrapping, focuses on branch continuity
+- **Adaptive-π (Paper 02):** Generalizes the wrap unit itself, enabling topology changes without winding changes
+
+When $\pi_a \to \pi$ (constant), the adaptive-π formulation reduces to the standard Phase-Lift presented here. The adaptive-π field is particularly important for:
+- Stable winding counts under geometric deformation
+- ℤ₂ parity tracking
+- Curve Memory Alphabet encoding
+- Visualizations that avoid branch-cut artifacts
+
+For most practical Phase-Lift applications, the fixed $2\pi$ unwrapping presented here is sufficient.
+
 ---
 
 ## 4. PR-Root (⧉√): the phase-resolved square root

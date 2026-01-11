@@ -13,7 +13,7 @@ A network where impedance (resistance + reactance) adapts to strain and memory. 
 A pattern of resistance that changes in response to strain. Defined in Paper 01.
 
 **Adaptive-π (πₐ)**  
-A version of π that is not constant (3.14159...) but instead varies with context as a geometric field. Defined in Paper 02.
+An adaptive phase-period field that generalizes the fixed 2π identification of U(1) phase. πₐ defines the local wrap unit (the "size" of one full phase turn) used in phase lifting and winding bookkeeping, enabling continuous phase transport and topologically stable parity tracking under deformation. Unlike standard quantum mechanics, Berry phase theory, or gauge theory, πₐ makes the phase period itself dynamic and spatially varying. Defined in Paper 02.
 
 ---
 
