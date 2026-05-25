@@ -1,58 +1,40 @@
 # Canonical Core
 
-**A unified theoretical framework for adaptive systems, geometric computation, phase-structured branching, adaptive transport, emergence, and adaptive invariants.**
+**A unified theoretical framework for adaptive systems, adaptive geometry, phase-memory transport, emergent structure, adaptive invariants, morphisms, measurement, and adaptive computation.**
 
-This repository contains the canonical white papers for the expanded nine-arm framework:
+This repository contains the canonical white papers for the expanded **12-arm Canonical Core framework**, with **APMG — Adaptive Phase-Memory Geometry** as the umbrella mathematical container.
 
-- **ARP/AIN** – Adaptive Resistance/Impedance Networks
-- **Adaptive-π Geometry** – Adaptive-π as a geometric field
-- **Curve Memory (CM/CMA)** – Path and derivative memory structures
-- **Phase-Lift (⧉, PROs)** – Phase-structured branching and PR-Root semantics
-- **QPS Mapping** – Quantum-GR refresh mapping and strain-clock visibility
-- **ACFN** – Adaptive Curvature Flow Networks
-- **PMT** – Phase-Memory Transport Theory
-- **EPM** – Emergent Phase Matter
-- **ACST** – Adaptive Conservation and Symmetry Theory
-
-https://rdm3dc.github.io/canonical-core/
----
-
-## 📚 Papers (Recommended Reading Order)
-
-1. **[ARP/AIN: Adaptive Resistance and Adaptive Impedance Networks](papers/01-arp-ain.md)**  
-   *The core adaptation engine: how systems respond to strain and memory.*
-
-2. **[Adaptive-π Geometry and Adaptive-π Calculus](papers/02-adaptive-pi-geometry.md)**  
-   *πₐ as a genuinely new adaptive phase-period field that defines the local unit of phase wrap; geometric implications and phase-theoretic applications.*
-
-3. **[Curve Memory and Curve Memory Alphabet](papers/03-curve-memory-cma.md)**  
-   *How paths and derivatives encode memory; the CMA encoding system.*
-
-4. **[Phase-Lift, PR-Root, and PROs](papers/04-phase-lift-pros.md)**  
-   *⧉ operator, phase-structured branching, and Phase-Resistant Objects.*
-
-5. **[QPS-GR: Strain, Clock Offset, Visibility, and Refresh Mapping](papers/05-qps-gr-refresh-mapping.md)**  
-   *Engineering layer mapping quantum phase space to general relativity.*
-
-6. **[Adaptive Curvature Flow Networks (ACFN)](papers/06-adaptive-curvature-flow-networks.md)**  
-   *Dynamic geometry layer: flow reshapes curvature, and curvature changes future flow.*
-
-7. **[Phase-Memory Transport Theory (PMT)](papers/07-phase-memory-transport-theory.md)**  
-   *Adaptive information transport: phase writes memory, and memory modifies future phase transport.*
-
-8. **[Emergent Phase Matter (EPM)](papers/08-emergent-phase-matter.md)**  
-   *Emergence layer: stable phase-memory structures, knots, vortices, and adaptive soliton-like objects.*
-
-9. **[Adaptive Conservation and Symmetry Theory (ACST)](papers/09-adaptive-conservation-symmetry-theory.md)**  
-   *Invariant layer: adaptive conservation, quasi-invariants, and symmetry laws with memory feedback.*
+Website: https://rdm3dc.github.io/canonical-core/
 
 ---
 
-## 🧭 Quick Start
+## The Framework at a Glance
 
-**New to this work?** Start with Paper 01 (ARP/AIN), then follow the numbered order.
+### Umbrella Framework
 
-**Want the expanded picture?** The nine-arm stack progresses:
+- **APMG — Adaptive Phase-Memory Geometry**  
+  The container object that unifies the full stack:
+
+```text
+A = (X, g, G, κ, θ_R, π_a, M, Φ, C_A, E, L)
+```
+
+### 12 Canonical Arms
+
+1. **ARP/AIN** — Adaptive Resistance / Adaptive Impedance Networks
+2. **Adaptive-π Geometry** — Adaptive phase-period geometry
+3. **Curve Memory / CMA** — Path and derivative memory structures
+4. **Phase-Lift / PR-Root / PROs** — Branch-aware phase operators
+5. **QPS-GR Mapping** — Strain / clock / visibility engineering layer
+6. **ACFN** — Adaptive Curvature Flow Networks
+7. **PMT** — Phase-Memory Transport Theory
+8. **EPM** — Emergent Phase Matter
+9. **ACST** — Adaptive Conservation and Symmetry Theory
+10. **AMT** — Adaptive Morphism Theory
+11. **AOMT** — Adaptive Observer and Measurement Theory
+12. **ACCG** — Adaptive Computation and Complexity Geometry
+
+The core progression is:
 
 ```text
 flow
@@ -64,66 +46,169 @@ flow
 → transport
 → emergence
 → adaptive laws
+→ morphisms
+→ measurement
+→ computation
 ```
 
-**Looking for notation?** See [docs/notation.md](docs/notation.md) for canonical symbols (⧉, πₐ, τ_coh, V_floor, G, κ, θ, M, etc.).
+---
 
-**Want the big picture?** Read [docs/index.md](docs/index.md) for how all nine papers connect.
+## Papers — Recommended Reading Order
+
+1. **[ARP/AIN: Adaptive Resistance and Adaptive Impedance Networks](papers/01-arp-ain.md)**  
+   *The core adaptation engine: how systems respond to strain, flow, and memory.*
+
+2. **[Adaptive-π Geometry and Adaptive-π Calculus](papers/02-adaptive-pi-geometry.md)**  
+   *πₐ as an adaptive phase-period field and geometry layer.*
+
+3. **[Curve Memory and Curve Memory Alphabet](papers/03-curve-memory-cma.md)**  
+   *How paths and derivatives encode reusable memory.*
+
+4. **[Phase-Lift, PR-Root, and PROs](papers/04-phase-lift-pros.md)**  
+   *The ⧉ operator, phase-resolved evaluation, and branch-aware objects.*
+
+5. **[QPS-GR: Strain, Clock Offset, Visibility, and Refresh Mapping](papers/05-qps-gr-refresh-mapping.md)**  
+   *Engineering mapping between phase, strain, clocks, and visibility.*
+
+6. **[Adaptive Curvature Flow Networks (ACFN)](papers/06-adaptive-curvature-flow-networks.md)**  
+   *Dynamic geometry: flow reshapes curvature and curvature changes future flow.*
+
+7. **[Phase-Memory Transport Theory (PMT)](papers/07-phase-memory-transport-theory.md)**  
+   *Phase writes memory, and memory modifies future phase transport.*
+
+8. **[Emergent Phase Matter (EPM)](papers/08-emergent-phase-matter.md)**  
+   *Stable phase-memory structures, knots, vortices, and adaptive soliton-like objects.*
+
+9. **[Adaptive Conservation and Symmetry Theory (ACST)](papers/09-adaptive-conservation-symmetry-theory.md)**  
+   *Adaptive invariants, quasi-conservation laws, and symmetry with memory feedback.*
+
+10. **[Adaptive Phase-Memory Geometry (APMG)](papers/10-adaptive-phase-memory-geometry.md)**  
+    *Umbrella mathematical framework for the full Canonical Core object.*
+
+11. **[Adaptive Morphism Theory (AMT)](papers/11-adaptive-morphism-theory.md)**  
+    *When two adaptive systems are structurally equivalent across media, coordinates, or scale.*
+
+12. **[Adaptive Observer and Measurement Theory (AOMT)](papers/12-adaptive-observer-measurement-theory.md)**  
+    *Measurement, probe back-action, observability, and validation of adaptive systems.*
+
+13. **[Adaptive Computation and Complexity Geometry (ACCG)](papers/13-adaptive-computation-complexity-geometry.md)**  
+    *Computation where the cost landscape itself learns.*
 
 ---
 
-## 🔑 Key Concepts
+## Proof and Solver Packages
+
+The newer arms now include proof packages and executable toy examples.
+
+### Proof Packages
+
+```text
+papers/acfn-proof-and-solution-package.md
+papers/pmt-proof-and-solution-package.md
+papers/epm-proof-and-solution-package.md
+papers/acst-proof-and-solution-package.md
+papers/11-amt-proof-and-solution-package.md
+papers/12-aomt-proof-and-solution-package.md
+papers/13-accg-proof-and-solution-package.md
+```
+
+### Examples
+
+```text
+examples/reduced_acfn_solver.py
+examples/reduced_pmt_solver.py
+examples/minimal_epm_sim.py
+examples/zero_dimensional_epm_solver.py
+examples/minimal_acst_accounting.py
+examples/two_reservoir_acst_solver.py
+examples/amt_morphism_score.py
+examples/aomt_observer_accounting.py
+examples/accg_adaptive_complexity_solver.py
+```
+
+---
+
+## Core Symbols
 
 | Symbol | Meaning |
-|--------|---------|
-| **G** | Adaptive conductance / transport capacity |
-| **κ** | Curvature field |
-| **θ** | Phase field |
-| **M** | Memory density / memory field |
-| **⧉** | Phase-Lift operator (prefix, phase-structured branch) |
-| **πₐ** | Adaptive-π field (adaptive phase-period field) |
-| **CM** | Curve Memory (path + derivative memory object) |
-| **CMA** | Curve Memory Alphabet (encoding system) |
-| **PROs** | Phase-Resistant Objects (survive phase transitions) |
-| **ACFN** | Adaptive Curvature Flow Networks |
-| **PMT** | Phase-Memory Transport Theory |
-| **EPM** | Emergent Phase Matter |
-| **ACST** | Adaptive Conservation and Symmetry Theory |
-| **τ_coh** | Coherence time |
-| **V_floor** | Visibility floor |
-| **QPS** | Quantum Phase Space |
-
-See the full [glossary](docs/glossary.md) for detailed definitions.
+|---|---|
+| `G` | Adaptive conductance / transport capacity |
+| `κ` | Curvature field or curvature proxy |
+| `θ_R` | Resolved phase field |
+| `M` | Memory density / memory field |
+| `Φ` | Emergent phase-memory structure field |
+| `C_A` | Adaptive conserved-like quantity |
+| `⧉` | Phase-Lift operator |
+| `πₐ` | Adaptive-π / adaptive phase-period field |
+| `E` | Adaptive energy / Lyapunov functional |
+| `L` | Ledger law / conservation-accounting rule |
+| `W` | Winding or topological marker |
 
 ---
 
-## 📖 Citation
+## Flagship Closure
 
-If you use this work, please cite:
+A compact master system for the expanded framework is:
+
+```text
+dG/dt = α|I| − μG + λ|∇κ| + σM
+
+∂κ/∂t = η∇·(G∇κ) − βκ
+
+∂θ_R/∂t = ω + γ∇·(G_eff∇θ_R)
+
+∂M/∂t = ξ(∂θ_R/∂t)^2 − ρM
+
+∂Φ/∂t = D∇²Φ − ∂V_eff(Φ,κ,M,θ_R)/∂Φ
+
+dC_A/dt = P_A − μ_A C_A + σ_A M
+```
+
+with:
+
+```text
+G_eff = G(1 + σM)
+```
+
+and:
+
+```text
+V_eff = V0 + uκ − vM.
+```
+
+---
+
+## Status
+
+- **Version:** 0.3.0-draft
+- **Status:** Expanded canonical draft with 12 arms plus APMG umbrella
+- **Next:** Update glossary/notation fully, add diagrams, add cross-arm simulations, and publish v0.3 docs
+
+---
+
+## Citation
 
 ```bibtex
 @software{canonical_core_2026,
   author = {{RDM3DC}},
-  title = {Canonical Core: ARP/AIN, Adaptive-π, Curve Memory, Phase-Lift, QPS Mapping, ACFN, PMT, EPM, and ACST},
+  title = {Canonical Core: Adaptive Phase-Memory Geometry and the 12-Arm Adaptive Framework},
   year = {2026},
   url = {https://github.com/RDM3DC/canonical-core},
-  version = {0.2.0-draft}
+  version = {0.3.0-draft}
 }
 ```
 
-Or use GitHub's "Cite this repository" button (top right).
-
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 canonical-core/
-├── README.md              ← You are here
-├── LICENSE                ← CC BY 4.0 (text) or MIT (code)
-├── CITATION.cff           ← Enables GitHub citation button
-├── CHANGELOG.md           ← Version history
-├── papers/                ← The nine canonical white papers
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── CHANGELOG.md
+├── papers/
 │   ├── 01-arp-ain.md
 │   ├── 02-adaptive-pi-geometry.md
 │   ├── 03-curve-memory-cma.md
@@ -132,78 +217,29 @@ canonical-core/
 │   ├── 06-adaptive-curvature-flow-networks.md
 │   ├── 07-phase-memory-transport-theory.md
 │   ├── 08-emergent-phase-matter.md
-│   └── 09-adaptive-conservation-symmetry-theory.md
-├── docs/                  ← Glossary, notation, roadmap
-│   ├── index.md           ← How everything connects
-│   ├── glossary.md        ← All symbols and terms
-│   ├── notation.md        ← Canonical notation rules
-│   └── roadmap.md         ← Future extensions
-├── figures/               ← Diagrams and visualizations
-├── code/                  ← (Optional) Prototypes and implementations
-└── experiments/           ← (Optional) Notebooks, datasets, logs
+│   ├── 09-adaptive-conservation-symmetry-theory.md
+│   ├── 10-adaptive-phase-memory-geometry.md
+│   ├── 11-adaptive-morphism-theory.md
+│   ├── 12-adaptive-observer-measurement-theory.md
+│   └── 13-adaptive-computation-complexity-geometry.md
+├── docs/
+│   ├── index.md
+│   ├── glossary.md
+│   ├── notation.md
+│   └── roadmap.md
+├── examples/
+├── figures/
+├── code/
+└── experiments/
 ```
 
 ---
 
-## 🔗 Related Repositories
+## License
 
-This is the **canonical reference** repository for the theoretical papers. For **code implementations, graphs, and experiments**, see the [RDM3DC organization](https://github.com/RDM3DC) on GitHub, which includes:
-
-- **[ARP](https://github.com/RDM3DC/Adaptive-Resistance-Principle-ARP-)** – Code implementations for Adaptive Resistance/Impedance Networks
-- **Additional repositories** with code, visualizations, graphs, and experimental results
-
-Visit [github.com/RDM3DC](https://github.com/RDM3DC) to explore all related projects.
+**Papers/text:** CC BY 4.0 unless otherwise stated  
+**Code/examples:** MIT-style permissive use unless otherwise stated
 
 ---
 
-## 🛠️ Status
-
-- **Version:** 0.2.0-draft
-- **Status:** Expanded canonical draft with nine arms
-- **Next:** Add figures, worked simulations, and cross-paper examples for ACFN/PMT/EPM/ACST
-
----
-
-## 🔒 Canonical Notation Rules
-
-1. **⧉ is the Phase-Lift operator** – prefix, phase-structured branch
-2. **π remains constant (3.14159...)** – πₐ is the adaptive field
-3. **CM is a memory object** – encodes path + derivative history
-4. **QPS mapping is an engineering layer** – explicit assumptions about quantum-GR correspondence
-5. **G, κ, θ, and M are the expanded four-field state variables** – adaptation, geometry, phase, and memory
-6. **ACFN/PMT/EPM/ACST are extension arms** – dynamic geometry, transport, emergence, and adaptive laws
-
-See [docs/notation.md](docs/notation.md) for the full canon.
-
----
-
-## 🗺️ Roadmap
-
-- [x] Add Papers 06–09 as expanded canonical extension drafts
-- [ ] Add figures and diagrams to `/figures`
-- [ ] Complete glossary and notation guide for all nine arms
-- [ ] Add worked examples for each paper
-- [ ] Add simulations for ACFN/PMT/EPM/ACST
-- [ ] Publish v0.2 with full documentation
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
----
-
-## 📜 License
-
-**Papers (text):** [CC BY 4.0](LICENSE) – Free to use with attribution  
-**Code (if any):** MIT License
-
----
-
-## 🤝 Contributing
-
-This is a canonical reference repository. If you find errors or have questions:
-- Open an issue
-- Suggest corrections via pull request
-- Reference these papers in your own work
-
----
-
-**Built by [RDM3DC](https://github.com/RDM3DC)** • **Version 0.2.0-draft** • **2026-05-25**
+**Built by [RDM3DC](https://github.com/RDM3DC)** • **Version 0.3.0-draft** • **2026-05-25**
