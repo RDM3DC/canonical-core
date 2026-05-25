@@ -1,11 +1,55 @@
 # How Everything Connects
 
-The nine papers in Canonical Core form a layered, interlocking framework. The first five define the foundation; Papers 06–09 extend it into dynamic geometry, adaptive transport, emergence, and adaptive invariants.
+Canonical Core is now organized as a **12-arm adaptive framework** with **APMG — Adaptive Phase-Memory Geometry** as the umbrella mathematical container.
 
-## The Stack
+The framework moves from adaptive flow, to geometry, to memory, to phase, to dynamic curvature, to transport, to emergence, to laws, to morphisms, to measurement, to computation.
+
+---
+
+## Umbrella Object
+
+The full APMG object is:
+
+```text
+A = (X, g, G, κ, θ_R, π_a, M, Φ, C_A, E, L)
+```
+
+where:
+
+| Symbol | Meaning |
+|---|---|
+| `X` | base space: graph, manifold, mesh, grid, CAD object, or point cloud |
+| `g` | metric / geometry structure |
+| `G` | adaptive conductance / transport capacity |
+| `κ` | curvature field or proxy |
+| `θ_R` | resolved phase field |
+| `π_a` | adaptive phase-period field |
+| `M` | memory field |
+| `Φ` | emergent structure field |
+| `C_A` | adaptive conserved-like quantity |
+| `E` | adaptive energy / Lyapunov functional |
+| `L` | ledger / conservation-accounting law |
+
+---
+
+## The 12-Arm Stack
 
 ```text
 ┌───────────────────────────────────────────────┐
+│ APMG Umbrella                                 │
+│ Adaptive Phase-Memory Geometry                │
+└───────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────┐
+│ 12: ACCG                                      │  ← Computation / complexity
+│     Adaptive computation on learning geometry │
+├───────────────────────────────────────────────┤
+│ 11: AOMT                                      │  ← Observer / validation
+│     Measurement, noise, probe back-action     │
+├───────────────────────────────────────────────┤
+│ 10: AMT                                       │  ← Morphisms / equivalence
+│     Structure-preserving adaptive maps        │
+├───────────────────────────────────────────────┤
 │ 09: ACST                                      │  ← Laws / invariants
 │     Adaptive conservation and symmetry        │
 ├───────────────────────────────────────────────┤
@@ -35,114 +79,153 @@ The nine papers in Canonical Core form a layered, interlocking framework. The fi
 └───────────────────────────────────────────────┘
 ```
 
+---
+
 ## How to Read Them
 
-1. **Start with ARP/AIN (Paper 01)** – This defines the core adaptation mechanism: how systems respond to strain, flow, and memory.
+1. **ARP/AIN** — core adaptation engine.
+2. **Adaptive-π Geometry** — adaptive phase-period geometry.
+3. **Curve Memory / CMA** — path and derivative memory.
+4. **Phase-Lift / PROs** — branch-aware resolved phase.
+5. **QPS-GR Mapping** — engineering map for strain, clocks, and visibility.
+6. **ACFN** — geometry becomes dynamic through curvature flow.
+7. **PMT** — phase writes memory and memory changes future transport.
+8. **EPM** — stable phase-memory structures emerge.
+9. **ACST** — adaptive conservation and quasi-invariants.
+10. **APMG** — umbrella object joining the stack.
+11. **AMT** — maps/equivalence between adaptive systems.
+12. **AOMT** — observation, validation, probe back-action.
+13. **ACCG** — computation where geometry learns.
 
-2. **Add Geometry (Paper 02)** – Adaptive-π defines a local adaptive phase-period field and gives geometry a tunable phase-wrap structure.
-
-3. **Add Memory (Paper 03)** – Curve Memory encodes path and derivative history, creating a memory object that systems can query.
-
-4. **Add Phase Structure (Paper 04)** – Phase-Lift (⧉) adds branch-aware phase semantics and defines Phase-Resistant Objects.
-
-5. **Map to Physics/Engineering (Paper 05)** – QPS-GR mapping connects the abstract framework to strain, clock offset, visibility, and refresh cadence.
-
-6. **Make Geometry Dynamic (Paper 06)** – ACFN turns geometry into an adaptive state variable: flow reshapes curvature and curvature changes future flow.
-
-7. **Transport Phase-Memory (Paper 07)** – PMT treats phase as a history-bearing transport medium where phase writes memory and memory modifies future transport.
-
-8. **Let Stable Objects Emerge (Paper 08)** – EPM defines stable phase-memory structures such as knots, vortices, adaptive solitons, and geometry-locked islands.
-
-9. **Ask What Remains Conserved (Paper 09)** – ACST defines adaptive conservation, quasi-invariants, and symmetry laws with memory feedback.
+---
 
 ## Key Dependencies
 
-- **CM requires ARP/AIN** – Memory encoding depends on adaptive response.
-- **Phase-Lift requires CM** – Phase branches carry history forward.
-- **QPS mapping requires the first four** – The engineering layer assumes adaptation, geometry, memory, and phase structure.
-- **ACFN extends ARP + Adaptive-π** – Dynamic curvature needs both adaptation and geometry.
-- **PMT extends Phase-Lift + CM + ACFN** – Phase-memory transport needs resolved phase, memory, and adaptive geometry.
-- **EPM extends PMT** – Stable emergent structures require transport plus topological closure.
-- **ACST sits above all arms** – Adaptive laws and quasi-invariants describe what persists across the whole stack.
+- **ARP/AIN** supplies adaptive state dynamics.
+- **Adaptive-π** supplies adaptive phase-period geometry.
+- **Curve Memory** supplies historical path structure.
+- **Phase-Lift** supplies resolved branch semantics.
+- **QPS-GR** supplies engineering visibility/clock/strain mapping.
+- **ACFN** requires adaptation plus curvature/geometry.
+- **PMT** requires phase, memory, and adaptive transport.
+- **EPM** depends on PMT/ACFN memory-curvature structure.
+- **ACST** audits conservation, leakage, storage, and return.
+- **AMT** compares systems across representation, scale, or substrate.
+- **AOMT** validates observations and accounts for probe disturbance.
+- **ACCG** turns adaptive geometry into computational complexity.
 
-## The Four-Field Core of the Expanded Stack
+---
 
-Papers 06–09 repeatedly use four state variables:
+## Core State Variables
 
-| Variable | Meaning | Primary arm |
+| Variable | Meaning | Main Arms |
 |---|---|---|
-| `G` | Adaptive conductance / transport capacity | ARP/AIN, ACFN |
-| `κ` | Curvature field | Adaptive-π, ACFN |
-| `θ` | Phase field / resolved phase | Phase-Lift, PMT |
-| `M` | Memory density / memory field | Curve Memory, PMT |
+| `G` | Adaptive conductance / transport capacity | ARP/AIN, ACFN, ACCG |
+| `κ` | Curvature field | Adaptive-π, ACFN, EPM |
+| `θ_R` | Resolved phase | Phase-Lift, PMT, AOMT |
+| `π_a` | Adaptive phase-period field | Adaptive-π, Phase-Lift, AMT |
+| `M` | Memory density / field | Curve Memory, PMT, EPM, ACST |
+| `Φ` | Emergent structure field | EPM, ACCG |
+| `C_A` | Adaptive conserved-like quantity | ACST |
+| `L` | Ledger law | ACST, AMT, AOMT |
 
-A compact speculative master system is:
+---
+
+## Master System
+
+A compact master system is:
 
 ```text
 dG/dt = α|I| − μG + λ|∇κ| + σM
 
-∂κ/∂t = η ∇·(G ∇κ) − βκ
+∂κ/∂t = η∇·(G∇κ) − βκ
 
-∂θ/∂t = ω − γ ∇·(G ∇θ)
+∂θ_R/∂t = ω + γ∇·(G_eff∇θ_R)
 
-∂M/∂t = ξ(∂θ/∂t)² − ρM
+∂M/∂t = ξ(∂θ_R/∂t)^2 − ρM
+
+∂Φ/∂t = D∇²Φ − ∂V_eff(Φ,κ,M,θ_R)/∂Φ
+
+dC_A/dt = P_A − μ_A C_A + σ_A M
 ```
 
-This is the core loop:
+with:
 
 ```text
-phase → memory → adaptation → geometry → future phase
+G_eff = G(1 + σM)
 ```
 
-## Canonical Notation
+and:
 
-See [notation.md](notation.md) for the full list, but key symbols are:
-
-- **⧉** = Phase-Lift operator
-- **πₐ** = Adaptive-π field
-- **CM** = Curve Memory object
-- **CMA** = Curve Memory Alphabet
-- **PROs** = Phase-Resistant Objects
-- **G** = adaptive conductance / transport capacity
-- **κ** = curvature field
-- **θ** = phase field
-- **M** = memory density
-- **ACFN** = Adaptive Curvature Flow Networks
-- **PMT** = Phase-Memory Transport Theory
-- **EPM** = Emergent Phase Matter
-- **ACST** = Adaptive Conservation and Symmetry Theory
-- **τ_coh** = Coherence time
-- **V_floor** = Visibility floor
-
-## What This Framework Does
-
-- **Unifies adaptation, geometry, and memory**
-- **Defines phase-structured branching** through Phase-Lift
-- **Provides engineering semantics** for QPS-GR correspondence
-- **Adds dynamic geometry** through ACFN
-- **Adds adaptive phase-memory transport** through PMT
-- **Defines emergent stable structures** through EPM
-- **Defines adaptive invariants and quasi-conservation laws** through ACST
-- **Establishes canonical notation** for future work
-
-## What It Doesn't Do (Yet)
-
-- Full experimental validation
-- Complete worked examples with real datasets
-- Numerical solvers for all nine arms
-- Formal proofs of all proposed stability and conservation claims
-- Full visualization tools for `/code`
-
-## Related Repositories
-
-This repository contains the **theoretical framework** and canonical papers. For **code implementations, graphs, and experiments**, see:
-
-- **[RDM3DC organization on GitHub](https://github.com/RDM3DC)** – Contains multiple repositories with:
-  - **[ARP](https://github.com/RDM3DC/Adaptive-Resistance-Principle-ARP-)** – Code implementations for Adaptive Resistance/Impedance Networks
-  - Additional repositories with visualizations, graphs, and experimental results
-
-Visit [github.com/RDM3DC](https://github.com/RDM3DC) to explore all related projects.
+```text
+V_eff = V0 + uκ − vM.
+```
 
 ---
 
-**Next:** Read the [glossary](glossary.md) for detailed definitions.
+## Proof Packages and Examples
+
+The repository now contains proof/solution packages and executable examples for the new arms.
+
+```text
+papers/acfn-proof-and-solution-package.md
+papers/pmt-proof-and-solution-package.md
+papers/epm-proof-and-solution-package.md
+papers/acst-proof-and-solution-package.md
+papers/11-amt-proof-and-solution-package.md
+papers/12-aomt-proof-and-solution-package.md
+papers/13-accg-proof-and-solution-package.md
+```
+
+```text
+examples/reduced_acfn_solver.py
+examples/reduced_pmt_solver.py
+examples/minimal_epm_sim.py
+examples/zero_dimensional_epm_solver.py
+examples/minimal_acst_accounting.py
+examples/two_reservoir_acst_solver.py
+examples/amt_morphism_score.py
+examples/aomt_observer_accounting.py
+examples/accg_adaptive_complexity_solver.py
+```
+
+---
+
+## What This Framework Does
+
+- Unifies adaptation, geometry, memory, and phase.
+- Defines branch-aware phase evaluation through Phase-Lift.
+- Gives geometry dynamic evolution through ACFN.
+- Defines phase-memory transport through PMT.
+- Defines emergent stable phase-memory objects through EPM.
+- Tracks adaptive conservation laws through ACST.
+- Defines equivalence maps through AMT.
+- Adds measurement and validation through AOMT.
+- Defines adaptive computation and complexity through ACCG.
+
+---
+
+## What It Does Not Do Yet
+
+- It does not experimentally prove new physics.
+- It does not claim confirmed new particles or anti-gravity.
+- It does not fully solve the complete coupled PDE system.
+- It does not replace classical conservation laws; ACST extends accounting for adaptive systems.
+- It does not replace classical complexity theory; ACCG defines adaptive cost geometry.
+
+---
+
+## Related Repositories
+
+This repository contains the theoretical framework and canonical papers. For code implementations, graphs, and experiments, see:
+
+- [RDM3DC organization on GitHub](https://github.com/RDM3DC)
+- [Adaptive Resistance Principle ARP](https://github.com/RDM3DC/Adaptive-Resistance-Principle-ARP-)
+- [ACFN](https://github.com/RDM3DC/ACFN)
+- [Phase-Memory Transport Theory](https://github.com/RDM3DC/Phase-Memory-Transport-Theory)
+- [Emergent Phase Matter](https://github.com/RDM3DC/Emergent-Phase-Matter)
+- [Adaptive Conservation and Symmetry Theory](https://github.com/RDM3DC/Adaptive-Conservation-and-Symmetry-Theory)
+
+---
+
+**Next:** Update the glossary and notation files to fully reflect the 12-arm structure.
