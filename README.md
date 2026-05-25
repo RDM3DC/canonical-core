@@ -96,6 +96,53 @@ flow
 
 ---
 
+## Starter Script and Reproducible Artifacts
+
+The ARP/AIN starter script is now present at:
+
+```text
+code/arp_ain_sim.py
+```
+
+Run it from the repository root:
+
+```bash
+python code/arp_ain_sim.py
+```
+
+It generates:
+
+```text
+artifacts/arp_ain_sim.csv
+artifacts/arp_ain_sim_summary.md
+```
+
+Default drive signal:
+
+```text
+I(t) = I_bias + I_amp * sin(2*pi*freq_hz*t + phase_rad)
+```
+
+Default parameters:
+
+```text
+alpha_G = 1.20
+mu_G = 0.35
+G0 = 0.20
+G_min = 1.0e-9
+I_bias = 0.80
+I_amp = 0.45
+freq_hz = 0.50
+phase_rad = 0.00
+t0 = 0.00
+t_end = 20.00
+dt = 0.01
+```
+
+These values are included in the script and in the generated summary so sample numbers can be checked exactly.
+
+---
+
 ## Proof and Solver Packages
 
 The newer arms now include proof packages and executable toy examples.
@@ -180,7 +227,7 @@ V_eff = V0 + uκ − vM.
 
 ## Status
 
-- **Version:** 0.3.0-draft
+- **Version:** 0.3.1-draft
 - **Status:** Expanded canonical draft with 12 arms plus APMG umbrella
 - **Next:** Update glossary/notation fully, add diagrams, add cross-arm simulations, and publish v0.3 docs
 
@@ -194,7 +241,7 @@ V_eff = V0 + uκ − vM.
   title = {Canonical Core: Adaptive Phase-Memory Geometry and the 12-Arm Adaptive Framework},
   year = {2026},
   url = {https://github.com/RDM3DC/canonical-core},
-  version = {0.3.0-draft}
+  version = {0.3.1-draft}
 }
 ```
 
@@ -228,8 +275,11 @@ canonical-core/
 │   ├── notation.md
 │   └── roadmap.md
 ├── examples/
+├── artifacts/
+│   └── README.md
 ├── figures/
 ├── code/
+│   └── arp_ain_sim.py
 └── experiments/
 ```
 
@@ -242,4 +292,4 @@ canonical-core/
 
 ---
 
-**Built by [RDM3DC](https://github.com/RDM3DC)** • **Version 0.3.0-draft** • **2026-05-25**
+**Built by [RDM3DC](https://github.com/RDM3DC)** • **Version 0.3.1-draft** • **2026-05-25**
