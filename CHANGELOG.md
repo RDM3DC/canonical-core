@@ -7,6 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Added
+- Added four expanded canonical extension papers:
+  - 06: Adaptive Curvature Flow Networks (ACFN)
+  - 07: Phase-Memory Transport Theory (PMT)
+  - 08: Emergent Phase Matter (EPM)
+  - 09: Adaptive Conservation and Symmetry Theory (ACST)
+- Added the expanded nine-arm reading order to the README.
+- Added the four-field expanded-state framing: `G`, `κ`, `θ`, and `M`.
+- Updated the framework map from five arms to nine arms in `docs/index.md`.
+
+### Changed
+- Reframed Canonical Core as an expanded nine-arm framework:
+  - flow
+  - geometry
+  - memory
+  - phase
+  - spacetime mapping
+  - dynamic curvature
+  - transport
+  - emergence
+  - adaptive laws
+- Updated project status to `0.2.0-draft` in README.
+
+### Planned
+- Add figures and diagrams to `/figures`
+- Complete `/docs/glossary.md` with all nine-arm symbols
+- Complete `/docs/notation.md` with ACFN/PMT/EPM/ACST notation
+- Add worked examples for each paper
+- Add simulations for ACFN/PMT/EPM/ACST
+
+---
+
 ## [0.1.0] - 2026-01-09
 
 ### Added
@@ -23,14 +57,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Organized papers into `/papers` directory
 - Established canonical notation rules
-
----
-
-## [Unreleased]
-
-### Planned
-- Add figures and diagrams to `/figures`
-- Complete `/docs/glossary.md` with all symbols
-- Add `/docs/notation.md` with canonical notation rules
-- Set up GitHub Pages for online reading
-- Add worked examples for each paper
