@@ -3,11 +3,67 @@
 All notable changes to the Canonical Core project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+and this project follows draft semantic versioning while the canon is evolving.
 
 ---
 
 ## [Unreleased]
+
+### Added
+- Expanded Canonical Core from nine arms to a **12-arm framework**.
+- Added the APMG umbrella paper:
+  - 10: Adaptive Phase-Memory Geometry (APMG)
+- Added three new canonical arms:
+  - 11: Adaptive Morphism Theory (AMT)
+  - 12: Adaptive Observer and Measurement Theory (AOMT)
+  - 13: Adaptive Computation and Complexity Geometry (ACCG)
+- Added proof and solution packages:
+  - ACFN proof and solution package
+  - PMT proof and solution package
+  - EPM proof and solution package
+  - ACST proof and solution package
+  - AMT proof and solution package
+  - AOMT proof and solution package
+  - ACCG proof and solution package
+- Added executable examples:
+  - `examples/reduced_acfn_solver.py`
+  - `examples/reduced_pmt_solver.py`
+  - `examples/minimal_epm_sim.py`
+  - `examples/zero_dimensional_epm_solver.py`
+  - `examples/minimal_acst_accounting.py`
+  - `examples/two_reservoir_acst_solver.py`
+  - `examples/amt_morphism_score.py`
+  - `examples/aomt_observer_accounting.py`
+  - `examples/accg_adaptive_complexity_solver.py`
+
+### Changed
+- Updated README to describe the **12-arm Canonical Core** and APMG umbrella object.
+- Updated `docs/index.md` with the full 12-arm stack, dependencies, master system, proof packages, and example list.
+- Updated project status to `0.3.0-draft`.
+- Reframed Canonical Core as:
+  - flow
+  - geometry
+  - memory
+  - phase
+  - spacetime mapping
+  - dynamic curvature
+  - transport
+  - emergence
+  - adaptive laws
+  - morphisms
+  - measurement
+  - computation
+
+### Planned
+- Update `/docs/glossary.md` for all 12 arms.
+- Update `/docs/notation.md` for APMG, AMT, AOMT, and ACCG.
+- Add figures and diagrams to `/figures`.
+- Add cross-arm simulations joining ACFN + PMT + EPM + ACST.
+- Publish v0.3 docs.
+
+---
+
+## [0.2.0-draft] - 2026-05-25
 
 ### Added
 - Added four expanded canonical extension papers:
@@ -30,14 +86,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - transport
   - emergence
   - adaptive laws
-- Updated project status to `0.2.0-draft` in README.
-
-### Planned
-- Add figures and diagrams to `/figures`
-- Complete `/docs/glossary.md` with all nine-arm symbols
-- Complete `/docs/notation.md` with ACFN/PMT/EPM/ACST notation
-- Add worked examples for each paper
-- Add simulations for ACFN/PMT/EPM/ACST
 
 ---
 
